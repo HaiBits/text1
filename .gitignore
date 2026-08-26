@@ -1,0 +1,42 @@
+# ===== Keil MDK 构建产物 =====
+# 输出文件夹（按本工程默认结构）
+Listings/
+Objects/
+DebugConfig/
+
+# Keil 生成/中间文件
+*.o
+*.crf
+*.d
+*.axf
+*.lnp
+*.sct
+*.dep
+*.lst
+*.map
+*.htm
+*.build_log.htm
+*.bak
+
+# ===== Keil 工程配置（机器/用户相关，不共享） =====
+*.uvguix.*
+*.uvopt
+*.uvoptx
+
+# ===== RTE 调试配置 =====
+RTE/Device/**/*.dbgconf
+RTE/Device/**/*.dbgconf.*
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+
+# ===== 日志 =====
+*.log
+JLinkLog.txt
+
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
